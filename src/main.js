@@ -9,4 +9,7 @@ document.getElementById("navneskjema").addEventListener("submit", (e) => {
   document.getElementById(
     "full-name"
   ).innerText = `${firstname} ${middlename} ${lastname}`;
+  document.getElementById(
+    "full-name-toppside"
+  ).innerText = `${firstname} ${middlename} ${lastname}`;
 });
