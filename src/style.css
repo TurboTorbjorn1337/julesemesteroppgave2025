@@ -16,11 +16,10 @@ section,
 }
 
 .sushi {
-    width: 120px;
-    height: 60px;
-    border-radius: 50% / 50%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
     background: #fff; /* Ris */
-    position: relative;
     box-shadow: inset 0 0 0 10px #2c2c2c; /* Tang */
   }
 
@@ -31,8 +30,8 @@ section,
     height: 40px;
     background: #ff4f4f; /* Laks */
     border-radius: 50%;
-    top: 10px;
-    left: 40px;
+    top: 20px;
+    left: 20px;
   }
 
   .sushi::after {
@@ -42,6 +41,6 @@ section,
     height: 20px;
     background: #ffd700; /* Avokado/eggefyll */
     border-radius: 50%;
-    top: 20px;
-    left: 50px;
+    top: 30px;
+    left: 30px;
   }
