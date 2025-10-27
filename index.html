@@ -4,10 +4,37 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>julesemesteroppgave2025</title>
+    <title>julesemesteroppgave2025 - Torbjørn Tiurleikson</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="oppgaver">
+      <header id="toppside">
+        <img src="torbis.png">
+        <div class="torbis-profil">
+          <h1 id="full-name-toppside">Torbjørn [Turbo] Tiurleikson</h1>
+          <p>Hei! Jeg heter Torbjørn, men vennene mine kaller meg turbo. Fordi jeg skriver fort på tangenttastaturet. Jeg er 21 år gammel, kommer fra Porsgrunn. Men chillern i Drammen. Favorittdrikken min er Aas øl. Den er skikkelig god. Også har jeg i det siste blitt skikkelig glad i middagsmaten sushi. Spesielt de runde med sånn greie rundt. Nam!</p>
+          <p>Under finner du alle oppgavene som skal leveres inn til høstsemesteret på <a href="https://www.usn.no/studier/applikasjonsutvikling-for-web/">Applikasjonsutvikling for web på USN</a></p>
+        </div>
+      </header>
+      <section>
+        <article>
+          <h1>Oppgave 1</h1>
+          <p>Oppgavetekst: Lag en grafisk fremstiling av favorittmaten din med CSS.</p>
+           <div class="sushi"></div>
+          <h1>Oppgave 2</h1>
+          <p>Lag et skjema hvor du kan endre mellomnavnet ditt.</p>
+           <form id="navneskjema">
+              <p id="">Navn: <span id="full-name">Torbjørn [Turbo] Tiurleikson</span></p>
+              <frameset>
+                <div><label>fornavn:<input type="text" id="firstname" name="firstname" placeholder="Torbjorn"></label></div>
+                <div><label>mellomnavn:<input type="text" id="middlename" name="middlename" placeholder="kjekkas"></label></div>
+                <div><label>etternavn:<input type="text" id="lastname"  name="lastname" placeholder="Tiurleikson"></label></div>
+                <button type="submit">Endre</button>
+              </frameset>
+           </form>
+        </article>
+      </section>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
