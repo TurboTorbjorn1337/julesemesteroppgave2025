@@ -28,7 +28,7 @@ section,
     position: absolute;
     width: 40px;
     height: 40px;
-    background: #ff4f4f; /* Laks */
+    background: salmon; /* Laks */
     border-radius: 50%;
     top: 20px;
     left: 20px;
@@ -39,7 +39,8 @@ section,
     position: absolute;
     width: 20px;
     height: 20px;
-    background: #ffd700; /* Avokado/eggefyll */
+    background: avocado;  /* Avokado/eggefyll */
+    color: eggplant;
     border-radius: 50%;
     top: 30px;
     left: 30px;
